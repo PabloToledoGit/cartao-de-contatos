@@ -1,0 +1,42 @@
+.cabecalho__navegacao{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2em;
+
+}
+
+.cabecalho__navegacao__sobre, .cabecalho__navegacao__links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: none;
+    border: 2px solid var(--cor-branca);
+
+    color: var(--cor-branca);
+    margin-top: 1em;
+    border-radius: 20px;
+    padding: 0.4em;
+    font-family: var(--font-padrao);
+    font-weight: 600;
+    
+}
+
+
+.btn-neon {
+    border:4px solid var(--cor-branca);
+    position: relative;
+    text-transform: capitalize;
+    text-decoration:none;
+    color: var(--cor-branca);
+    background-color: transparent;
+    cursor: pointer;
+    transition:0.4s;
+    text-shadow: 0 0 0.125em rgba(0, 0, 0, 0.5), 0 0 0.25em currentColor;
+    box-shadow: inset 0 0 0.5em 0 var(--cor-branca), 0 0 0.5em 0 var(--cor-branca);
+  }
+
+

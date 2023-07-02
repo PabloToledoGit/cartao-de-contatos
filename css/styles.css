@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;600&display=swap');
+
+:root{
+
+    --cor-vinho:#6B0000;
+    --cor-preta:#000000;
+    --cor-branca:#ffffff;
+
+    --font-padrao:'Roboto Mono', monospace;
+}
+
+body{
+
+    box-sizing: border-box;
+    height: 100vh;
+    background-color:var(--cor-preta);
+}
